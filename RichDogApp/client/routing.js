@@ -1,11 +1,9 @@
-angular.module('rich-dog').config(function($routeProvider) {
-
-  'use strict';
-
-  $routeProvider
-    .when('/login', {
-      templateUrl: 'views/login.html',
-      controller: 'loginController'
-    })
-    .otherwise({redirectTo: '/index'});
-});
+angular.module('richdog', ['ngRoute'])
+.config(['$routeProvider',
+  function($routeProvider, $locationProvider) {
+    $routeProvider
+       .when('/login', {
+        templateUrl: 'views/login.html',
+        controller: 'loginController'
+      })
+}]);

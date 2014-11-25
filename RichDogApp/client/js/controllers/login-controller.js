@@ -4,10 +4,10 @@ angular.module('richdog',[])
     'use strict';
     $scope.isLoginSuccess = false;
     var successHandler = function(){
-      $location.path("/login.html");
+      $location.path("/login");
     };
     var errorHandler = function(){
-      $scope.showError = true;
+      $location.path("/login");
     };
     $scope.login = function() {
         if($scope.emailAddress==='admin@g.com'){
