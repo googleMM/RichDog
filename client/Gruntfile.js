@@ -10,8 +10,8 @@ module.exports = function(grunt) {
     }
   });
   var config = {
-    appDir: 'src/app',
-    defaultDeployDir: '/inetpub/wwwroot/workspace/mogul'
+    appDir: 'src',
+    defaultDeployDir: '/inetpub/wwwroot/workspace/richdog'
   };
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.registerTask('default', ['uglify']);
