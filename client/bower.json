@@ -1,18 +1,18 @@
 {
-    "name": "RichDog",
-    "version": "0.0.1",
-    "main": "",
-    "private": true,
-    "ignore": [
-        "**/.*",
-        "node_modules",
-        "bower_components",
-        "test",
-        "tests"
-    ],
-    "dependencies": {
-        "angular": "~1.3.3",
-        "bootstrap": "~3.3.1",
-        "angular-route": "1.2.13"
-    }
+  "name": "RichDog",
+  "version": "0.0.1",
+  "main": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.3",
+    "bootstrap": "~3.3.1",
+    "angular-route": "1.2.13"
+  }
 }
